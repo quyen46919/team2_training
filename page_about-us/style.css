@@ -219,5 +219,87 @@
   text-align: left;
   color: #232536;
 }
+.aboutPage__creatives {
+  margin-top: 128px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0;
+}
+.aboutPage__center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.aboutPage__left {
+  width: 50%;
+}
+.aboutPage__left--title {
+  font-family: "Sen", "Nunito", Arial, Helvetica, sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -2px;
+  text-align: left;
+  margin: 0;
+}
+.aboutPage__left--heading {
+  width: 519px;
+  font-family: "Sen", "Nunito", Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin: 0;
+}
+.aboutPage__left--des {
+  width: 519px;
+  font-family: "Inter", "Nunito", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #232536;
+}
+.aboutPage__box3 {
+  padding: 128px 153px 91px 80px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 64px;
+}
+.aboutPage__box3--title {
+  font-family: "Sen", "Nunito", Arial, Helvetica, sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -2px;
+  text-align: left;
+  margin: 0;
+  margin-bottom: 16px;
+}
+.aboutPage__box3--heading {
+  font-family: "Sen", "Nunito", Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin: 0;
+}
+.aboutPage__box3--des {
+  font-family: "Inter", "Nunito", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #232536;
+}
 
 /*# sourceMappingURL=style.css.map */
