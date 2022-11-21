@@ -1,0 +1,82 @@
+@import "./scss/valiables/color.scss";
+@import "./scss/mixins/display.scss";
+@import "./scss/mixins/typo.scss";
+
+.categorypage {
+    width: 100%;
+    height: auto;
+
+    &__banner {
+        width: 100%;
+        height: 348px;
+    }
+
+    &__background {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        background-color: $lavendar;
+    }
+
+    &__content {
+        width: 515px;
+        @include position($position: absolute, $top: 80px, $left: 462px);
+
+        &--job {
+            @include display;
+            text-align: center;
+        }
+
+        &--des {
+            @include body1;
+            text-align: center;
+            margin: 16px 0 32px 0;
+        }
+
+        &--blog {
+            @include cap3;
+            text-transform: uppercase;
+        }
+    }
+    &__posts{
+        width: 100%;
+        height: auto;
+        @include padding(128px 79px);
+        @include displayFlexCenter(flex-start, flex-start, 144px);
+        &-row{
+            width: 100%;
+            height: 100%;
+            @include displayFlexCol(flex-start, flex-start, 32px)
+        }
+        &-list{
+            width: 749px;
+            height: 100%;
+            @include displayFlexCenter(flex-start, flex-start, 32px);
+        }
+       
+        &-new{
+            width: 512px;
+            height: 100%;
+            &--job{
+                @include cap1;
+                color: $purple;
+            }
+            &--title{
+                @include heading2;
+                margin: 16px 0 20px 0;
+            }
+            &--des{
+                @include body1;
+            }
+        }
+        &-right{
+            flex: 1;
+            height: 100%;
+            &--title{
+                @include heading2();
+            }
+        }
+
+
+    }
+}

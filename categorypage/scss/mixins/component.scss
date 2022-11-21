@@ -1,0 +1,15 @@
+@import "./display.scss";
+@mixin button($color: $white) {
+    padding: 16px 48px;
+    background-color: $color;
+    border: none;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    @include displayFlexCenter();
+    &:hover{
+        background-color: darken($color, 20 )
+    }
+}
