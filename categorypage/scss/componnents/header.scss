@@ -1,0 +1,41 @@
+@import "../base.scss";
+@import "../mixins/component.scss";
+@import "../mixins/display.scss";
+@import "../mixins/typo.scss";
+@import "../valiables/color.scss";
+
+.header {
+    height: 80px;
+    width: 100%;
+    background-color: $darkBg;
+    padding: 0px 80px 0px 83px;
+    // display: flex;
+    // align-items: center;
+    // justify-content: space-between;
+    // không bị đẩy ra ngoài
+    box-sizing: border-box;
+
+    @include displayFlexCenter(flex, center, center, 32px);
+
+    // gap: 32px;
+    &__logo {
+        @include heading2;
+        color: $white;
+    }
+
+    &__links {
+        // flex-grow lấy toàn bộ khoảng trống
+        flex-grow: 1;
+        @include displayFlexCenter(flex, flex-end, center, 24px);
+        * {
+            @include body1();
+            color: $white;
+        }
+
+    }
+
+    &__subscribe {
+        @include button($white);
+
+    }
+}

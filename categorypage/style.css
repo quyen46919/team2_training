@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Sen:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap");
+.categorypage {
+  width: 100%;
+  height: auto;
+}
+.categorypage__banner {
+  width: 100%;
+  height: 348px;
+}
+.categorypage__background {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background-color: #f4f0f8;
+}
+.categorypage__content {
+  width: 515px;
+  position: absolute;
+  top: 80px;
+  right: 0;
+  bottom: 0;
+  left: 462px;
+  z-index: 1;
+}
+.categorypage__content--job {
+  font-family: "Sen", "Nunito", Arial, Helvetica, sans-serif;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 64px;
+  letter-spacing: -2px;
+  text-align: left;
+  margin: 0;
+  text-align: center;
+}
+.categorypage__content--des {
+  font-family: "Inter", "Nunito", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin: 0;
+  text-align: center;
+  margin: 16px 0 32px 0;
+}
+.categorypage__content--blog {
+  font-family: "Inter", "Nunito", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 3px;
+  text-align: center;
+  margin: 0;
+  text-transform: uppercase;
+}
+.categorypage__posts {
+  width: 100%;
+  height: auto;
+  padding: 128px 79px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 144px;
+}
+.categorypage__posts-row {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 32px;
+}
+.categorypage__posts-list {
+  width: 749px;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 32px;
+}
+.categorypage__posts-new {
+  width: 512px;
+  height: 100%;
+}
+.categorypage__posts-new--job {
+  font-family: "Inter", "Nunito", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 3px;
+  text-align: left;
+  margin: 0;
+  color: #592ea9;
+}
+.categorypage__posts-new--title {
+  font-family: "Sen", "Nunito", Arial, Helvetica, sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -2px;
+  text-align: left;
+  margin: 0;
+  margin: 16px 0 20px 0;
+}
+.categorypage__posts-new--des {
+  font-family: "Inter", "Nunito", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin: 0;
+}
+.categorypage__posts-right {
+  flex: 1;
+  height: 100%;
+}
+.categorypage__posts-right--title {
+  font-family: "Sen", "Nunito", Arial, Helvetica, sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -2px;
+  text-align: left;
+  margin: 0;
+}
+
+/*# sourceMappingURL=style.css.map */
