@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400;700&display=swap');
+
+@mixin fontSen {
+    font-family: "Sen", "Nunito", Arial, Helvetica, sans-serif;
+
+}
+
+@mixin fontInter {
+    font-family: "Inter", "Nunito", Arial, Helvetica, sans-serif;
+
+}
+
+@mixin heading {
+    @include fontSen();
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: -2px;
+    text-align: left;
+    margin: 24px 0;
+
+}
+
+@mixin heading1 {
+    @include fontSen();
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: -2px;
+    text-align: left;
+    margin: 0;
+}
+
+@mixin heading2 {
+    @include fontSen();
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -2px;
+    text-align: left;
+    margin: 0;
+
+}
+
+@mixin heading3 {
+    @include fontSen();
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: -1px;
+    text-align: left;
+    margin: 16px 0;
+
+}
+
+@mixin heading4 {
+    @include fontSen();
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin: 0;
+
+}
+
+@mixin heading5 {
+    @include fontSen();
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin: 0;
+
+}
+
+@mixin heading6 {
+    @include fontSen();
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin: 0;
+
+}
+
+@mixin body1 {
+    @include fontInter();
+    //styleName: Body 1;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 28px;
+        letter-spacing: 0px;
+        text-align: left;
+        color: $black;
+
+}
+
+@mixin body2 {
+    @include fontInter();
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin: 0;
+
+}
+
+@mixin body2 {
+    @include fontInter();
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin: 0;
+}
+
+@mixin label1 {
+    @include fontInter();
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin: 0;
+}
+
+@mixin cap1 {
+    //styleName: Cap 1;
+    @include fontInter();
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 3px;
+    text-align: left;
+    margin: 0;
+}
+@mixin cap3 {
+    //styleName: Cap 03;
+    @include fontInter();
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 3px;
+        text-align: left;
+        margin: 0px;
+}

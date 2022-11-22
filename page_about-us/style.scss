@@ -1,0 +1,199 @@
+@import "./scss/varliables/colors.scss";
+@import "./scss/mixins/display.scss";
+@import "./scss/mixins/typo.scss";
+@import "./scss/components/button.scss";
+
+.aboutPage{
+    width: 100%;
+    height: auto;
+    &__about{
+        width: 100%;
+        height: auto;
+        @include padding(0px 80px);
+        background-color:$white;
+    }
+    &__heading1{
+       display: flex;
+        @include padding(0px 38px 0px 109px);
+        
+    }
+    &__title{
+        position: relative;
+            top: 64px;
+        margin-right: 32px;
+        width: 624px;
+        height: 356px;
+      
+         background: rgba(255, 255, 255, 1);
+    &--title{
+        
+        @include cap3();
+        margin-bottom: 16px;
+    }
+    &--heading1{
+        width: 496px;
+        @include heading1();
+    }
+    }
+    &__text{
+        width: 477px;
+        &--text{
+            @include body1();
+            margin-top: 102px;
+
+        }
+
+    }
+    &__background{
+       height: 444px;
+            width: 1280px;
+        background-image: url("./public/anh1.png");
+        // background-repeat: no-repeat;
+        background-size: cover;
+    }
+    &__box{
+        
+        height: 156px;
+            width: 630px;
+            border-radius: 0px;
+        background-color: $yellow;
+        position:relative;
+        top: 266px;
+        left: 109px;
+        padding: 48px 32px;
+        box-sizing: border-box;
+        @include displayFlex(center, center , 68px);
+    }
+        &__blog{
+            &--title{
+                @include heading();
+            }
+            &--des{
+                @include body1();
+            }
+
+        }
+        &__view{
+            &--title {
+                    @include heading();
+                }
+            
+                &--des {
+                    @include body1();
+                }
+        }
+        &__total{
+            &--title {
+                    @include heading();
+                }
+            
+                &--des {
+                    @include body1();
+                }
+        }
+                &__row--flex-end {
+                    width: 860px;
+                    @include displayFlex(flex-end,flex-end);
+                    height: 23px;
+                    background-color: aquamarine;
+                    position: relative;
+                    left: 109px;
+                    top: 266px;
+                    div:nth-child(1) {
+                        height: 23px;
+                        width: 311px;
+                        background-color:$purple;
+                    }
+        
+                    div:nth-child(2) {
+                        height: 23px;
+                        width: 78%;
+                        background-color: $yellow;
+                    }
+                }
+        &__mision{
+            width: 100%;
+            height: auto;
+            @include padding(128px 108px 64px 108px);
+            background-color: $lavendar ;
+            @include displayFlex(center,center,32px);
+        }
+        &__left{
+            // width: 516px;
+            // height: 249px;
+            &--title{
+                @include cap1();
+            }
+            &--heading{
+                @include heading3();
+            }
+            &--des{
+                @include body1();
+            }
+        }
+        &__right {
+        
+                     // width: 516px;
+                     // height: 249px;
+            &--title {
+                         @include cap1();
+            }
+        
+         &--heading {
+             @include heading3();
+            }
+        
+          &--des {
+             @include body1();
+         }
+                 }
+    &__creatives{
+        margin-top: 128px;
+        position: relative;
+        @include displayFlex(center,center);
+    }
+    &__center{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%)
+    }
+        &__left {
+            width: 50%;
+            &--title {
+                @include heading2();
+            }
+    
+            &--heading {
+                width: 519px;
+                @include heading4();
+            }
+    
+            &--des {
+                width: 519px;
+                @include body1();
+            
+            }
+        }
+        &__box3{
+            padding: (128px 153px 91px 80px);
+            box-sizing: border-box;
+            @include displayFlex(center,center,64px);
+            
+            &-right {
+                    
+                }
+                &--title {
+                   
+                     @include heading2();
+                    margin-bottom: 16px;
+                }
+                &--heading{
+                    @include heading4();
+                }
+                &--des{
+                    @include body1();
+                }
+        }
+}
+
